@@ -2,7 +2,6 @@ const navbar = function () {
   const content = document.getElementById('content');
 
   function header() {
-    console.log("hello");
     const nav = document.createElement('nav');
     const logo = document.createElement('div');
     const linksContainer = document.createElement('div');
