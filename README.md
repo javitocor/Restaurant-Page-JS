@@ -32,7 +32,10 @@ Additional description about the project and its features.
 - HTML 
 - CSS
 - JAVASCRIPT
+- NPM
+- WEBPACK
 - BOOTSTRAP
+- GITHUB ACTIONS
 
 ## Live Demo
 
