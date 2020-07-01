@@ -185,7 +185,7 @@ const menu = function () {
     span1.classList.add('text-muted');
     span2.classList.add('text-muted');
     span3.classList.add('text-muted');
-    img1.src = '../src/images/tea.jpg'
+    img1.src = './src/images/tea.jpg'
     img1.alt = 'tea set'
     img1.classList.add('card-img-top','rounded','img-fluid');
     img1.style.height = '260px';
