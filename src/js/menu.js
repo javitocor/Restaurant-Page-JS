@@ -2,6 +2,8 @@ const menu = function () {
   const content = document.getElementById('content');
   const container = document.createElement('div');
   container.classList.add('container','my-5','bg-dark');
+  const main = document.createElement('main');
+  main.classList.add('hide');
 
   function food() {
     const div = document.createElement('div');
@@ -134,8 +136,10 @@ const menu = function () {
     div.append(h11);
     div.append(row);
 
-    container.append(div);
-    content.append(container);
+    main.append(div);
+    main.append(container);
+
+    content.append(main);
   }
 
   function drinks() {
@@ -213,8 +217,10 @@ const menu = function () {
     div.append(h12);
     div.append(row);
 
-    container.append(div);
-    content.append(container);
+    main.append(div);
+    main.append(container);
+
+    content.append(main);
   }
 
   function render() {

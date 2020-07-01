@@ -1,5 +1,7 @@
 const about = function () {
     const content = document.getElementById('content');
+    const main = document.createElement('main');
+    main.classList.add('hide');
     
     function info() {
         const jumbo = document.createElement('div');
@@ -27,7 +29,8 @@ const about = function () {
         container.append(p3);
 
         jumbo.append(container);
-        content.append(jumbo);
+        main.append(jumbo);
+        content.append(main);
 
     }
     function render() {

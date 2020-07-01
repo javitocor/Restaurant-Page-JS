@@ -1,5 +1,7 @@
 const location = function () {
     const content = document.getElementById('content');
+    const main = document.createElement('main');
+    main.classList.add('hide');
     
     function restaurants() {
         const table = document.createElement('div');
@@ -79,8 +81,10 @@ const location = function () {
         table.append(thead);
         table.append(tbody);
 
-        content.append(h1);
-        content.append(table);
+        main.append(h1);
+        main.append(table);
+
+        content.append(main);
 
     }
 
