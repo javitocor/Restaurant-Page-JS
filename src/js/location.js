@@ -4,6 +4,7 @@ const location = function () {
     main.classList.add('hide');
     
     function restaurants() {
+        const div = document.createElement('div');
         const table = document.createElement('div');
         const thead = document.createElement('thead');
         const tr1 = document.createElement('tr');
@@ -29,10 +30,10 @@ const location = function () {
         const info4 = document.createElement('td');
         const h1 = document.createElement('h1');
 
-
+        div.classList.add('text-white','p-5','bg-dark','pb-5');
         table.classList.add('w-75','m-auto','table','table-dark','table-striped','table-bordered','table-hover');
         thead.classList.add('thead-light');
-        h1.classList.add('text-center');
+        h1.classList.add('text-center','mb-4');
         
         h1.innerHTML = "Our Restaurants";
         header1.innerHTML = "Name";
@@ -81,8 +82,10 @@ const location = function () {
         table.append(thead);
         table.append(tbody);
 
-        main.append(h1);
-        main.append(table);
+        div.append(h1);
+        div.append(table);
+
+        main.append(div);
 
         content.append(main);
 
