@@ -21,9 +21,19 @@
 
 # Restaurant Page
 
->  
+>  This restaurant page is built entirely in JavaScript, using Webpack. In this site you can find the home page, a menu page, an about us page and a page with the location of different branches of the restaurant worldwide.
 
-![screenshot](./assets/images/)
+Home Page
+![screenshot](./assets/images/screenshot1.png)
+
+Menu Page
+![screenshot](./assets/images/screenshot2.png)
+
+About Page
+![screenshot](./assets/images/screenshot3.png)
+
+Location Page
+![screenshot](./assets/images/screenshot4.png)
 
 Additional description about the project and its features.
 
@@ -42,10 +52,13 @@ Additional description about the project and its features.
 [Live Demo Link]() :point_left:
 
 ## Getting Started
+- Follow the lice demo link and enjoy the site.
 
 ### Usage
+- To get a local copy up and running follow these simple example steps.
 
-- 
+Clone the repository unto your local machine cd to the folder.
+
 
 ### Prerequisites
 
@@ -57,7 +70,7 @@ Additional description about the project and its features.
 
 ## Future features
 
-- 
+- Add extra functionality and a contact page.
 
 ## Author
 
