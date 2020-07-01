@@ -88,6 +88,30 @@
   background-size: cover;
 }
 
+.try {
+  background-image: url('../images/tea.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try1 {
+  background-image: url('../images/coffee.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try2 {
+  background-image: url('../images/beverages.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .top-left h3,
 .top-right h3,
 .bottom-right h3,

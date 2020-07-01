@@ -163,9 +163,9 @@ const menu = function () {
     const cardBody3 = document.createElement('div');
     const h53 = document.createElement('h5');
     const span3 = document.createElement('span');
-    const img1 = document.createElement('img');
-    const img2 = document.createElement('img');
-    const img3 = document.createElement('img');
+    const img1 = document.createElement('div');
+    const img2 = document.createElement('div');
+    const img3 = document.createElement('div');
 
     div.classList.add('mt-3','p-2');
     h12.classList.add('text-center','mb-5','text-white-50','pt-3');
@@ -185,7 +185,10 @@ const menu = function () {
     span1.classList.add('text-muted');
     span2.classList.add('text-muted');
     span3.classList.add('text-muted');
-    img1.src = './src/images/tea.jpg'
+    img1.classList.add('card-img-top','rounded','img-fluid','try');
+    img2.classList.add('card-img-top','rounded','img-fluid','try1');
+    img3.classList.add('card-img-top','rounded','img-fluid','try2');
+    /*img1.src = '../src/images/tea.jpg'
     img1.alt = 'tea set'
     img1.classList.add('card-img-top','rounded','img-fluid');
     img1.style.height = '260px';
@@ -196,7 +199,7 @@ const menu = function () {
     img3.src = '../src/images/beverages.jpg'
     img3.alt = 'Set of juices'
     img3.classList.add('card-img-top','rounded','img-fluid');
-    img3.style.height = '260px';
+    img3.style.height = '260px';*/
 
     h12.innerHTML = 'Our Beverages';
 
