@@ -49,6 +49,7 @@ const home = function () {
         h34.innerHTML = "Food from Local Markets";
 
         title.append(h1);
+        seriously.append(h4);
 
         topLeft.append(h31);
         topRight.append(h32);
