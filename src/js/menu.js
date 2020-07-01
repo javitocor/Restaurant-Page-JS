@@ -163,6 +163,9 @@ const menu = function () {
     const cardBody3 = document.createElement('div');
     const h53 = document.createElement('h5');
     const span3 = document.createElement('span');
+    const img1 = document.createElement('img');
+    const img2 = document.createElement('img');
+    const img3 = document.createElement('img');
 
     div.classList.add('mt-3','p-2');
     h12.classList.add('text-center','mb-5','text-white-50','pt-3');
@@ -182,6 +185,18 @@ const menu = function () {
     span1.classList.add('text-muted');
     span2.classList.add('text-muted');
     span3.classList.add('text-muted');
+    img1.src = '../src/images/tea.jpg'
+    img1.alt = 'tea set'
+    img1.classList.add('card-img-top','rounded','img-fluid');
+    img1.style.height = '260px';
+    img2.src = '../src/images/coffee.jpg'
+    img2.alt = 'coffee cup'
+    img2.classList.add('card-img-top','rounded','img-fluid');
+    img2.style.height = '260px';
+    img3.src = '../src/images/beverages.jpg'
+    img3.alt = 'Set of juices'
+    img3.classList.add('card-img-top','rounded','img-fluid');
+    img3.style.height = '260px';
 
     h12.innerHTML = 'Our Beverages';
 
@@ -193,22 +208,25 @@ const menu = function () {
     h52.innerHTML = 'Coffee';
     h53.innerHTML = 'Juice';
 
-    card1.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded" src="../src/images/tea.jpg" alt="Card ige cap">';
-    card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/coffee.jpg" alt="Card image cap">';
-    card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/beverages.jpg" alt="Card image cap">';
-
+    //card1.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded" src="../src/images/tea.jpg" alt="Card ige cap">';
+    //card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/coffee.jpg" alt="Card image cap">';
+    //card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/beverages.jpg" alt="Card image cap">';
+    
     cardBody1.append(h51);
     cardBody1.append(span1);
+    card1.append(img1);
     card1.append(cardBody1);
     col41.append(card1);
 
     cardBody2.append(h52);
     cardBody2.append(span2);
+    card2.append(img2);
     card2.append(cardBody2);
     col42.append(card2);
 
     cardBody3.append(h53);
     cardBody3.append(span3);
+    card3.append(img3);
     card3.append(cardBody3);
     col43.append(card3);
 
