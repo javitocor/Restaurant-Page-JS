@@ -102,13 +102,6 @@ const menu = function () {
     h55.innerHTML = 'Meat Sticks';
     h56.innerHTML = 'Spring Rolls';
 
-    /*card1.innerHTML = '<img style="height: 260px;" class="card-img-top rounded" src="../src/images/pho.jpg" alt="Card ige cap">';
-    card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/buncha.jpg" alt="Card image cap">';
-    card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/bundau.jpg" alt="Card image cap">';
-    card4.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/dinsum.jpg" alt="Card image cap">';
-    card5.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/meat.jpg" alt="Card image cap">';
-    card6.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/banhtom.jpg" alt="Card image cap">';*/
-
     cardBody1.append(h51);
     cardBody1.append(span1);
     card1.append(img1);
@@ -206,19 +199,7 @@ const menu = function () {
     img1.classList.add('card-img-top','rounded','img-fluid','try');
     img2.classList.add('card-img-top','rounded','img-fluid','try1');
     img3.classList.add('card-img-top','rounded','img-fluid','try2');
-    /*img1.src = '../src/images/tea.jpg'
-    img1.alt = 'tea set'
-    img1.classList.add('card-img-top','rounded','img-fluid');
-    img1.style.height = '260px';
-    img2.src = '../src/images/coffee.jpg'
-    img2.alt = 'coffee cup'
-    img2.classList.add('card-img-top','rounded','img-fluid');
-    img2.style.height = '260px';
-    img3.src = '../src/images/beverages.jpg'
-    img3.alt = 'Set of juices'
-    img3.classList.add('card-img-top','rounded','img-fluid');
-    img3.style.height = '260px';*/
-
+    
     h12.innerHTML = 'Our Beverages';
 
     span1.innerHTML = '1,5$';
@@ -229,10 +210,6 @@ const menu = function () {
     h52.innerHTML = 'Coffee';
     h53.innerHTML = 'Juice';
 
-    //card1.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded" src="../src/images/tea.jpg" alt="Card ige cap">';
-    //card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/coffee.jpg" alt="Card image cap">';
-    //card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/beverages.jpg" alt="Card image cap">';
-    
     cardBody1.append(h51);
     cardBody1.append(span1);
     card1.append(img1);
