@@ -1,9 +1,10 @@
 const menu = function () {
   const content = document.getElementById('content');
   const container = document.createElement('div');
-  container.classList.add('container','my-5','bg-dark');
+  container.classList.add('container','my-5','bg-dark','py-5');
+  container.id = "container";
   const main = document.createElement('main');
-  main.classList.add('hide');
+  main.classList.add('hide','bg-dark');
 
   function food() {
     const div = document.createElement('div');
@@ -42,27 +43,27 @@ const menu = function () {
 
     h11.classList.add('text-center','mb-5','text-white-50','pt-3');
     row.classList.add('row','p-2','bg-dark');
-    col41.classList.add('col-4','p-3','bg-secondary');
+    col41.classList.add('col-4','pt-4','pb-3','pr-3','pl-4','bg-secondary');
     card1.classList.add('card','mb-4');
     cardBody1.classList.add('card-body');
     h51.classList.add('card-text');
-    col42.classList.add('col-4','p-3','bg-secondary');
+    col42.classList.add('col-4','pt-4','pb-3','pr-3','pl-3','bg-secondary');
     card2.classList.add('card','mb-4');
     cardBody2.classList.add('card-body');
     h52.classList.add('card-text');
-    col43.classList.add('col-4','p-3','bg-secondary');
+    col43.classList.add('col-4','pt-4','pb-3','pr-4','pl-3','bg-secondary');
     card3.classList.add('card','mb-4');
     cardBody3.classList.add('card-body');
     h53.classList.add('card-text');
-    col44.classList.add('col-4','p-3','bg-secondary');
+    col44.classList.add('col-4','pt-4','pb-3','pr-3','pl-4','bg-secondary');
     card4.classList.add('card','mb-4');
     cardBody4.classList.add('card-body');
     h54.classList.add('card-text');
-    col45.classList.add('col-4','p-3','bg-secondary');
+    col45.classList.add('col-4','pt-4','pb-3','pr-3','pl-3','bg-secondary');
     card5.classList.add('card','mb-4');
     cardBody5.classList.add('card-body');
     h55.classList.add('card-text');
-    col46.classList.add('col-4','p-3','bg-secondary');
+    col46.classList.add('col-4','pt-4','pb-3','pr-4','pl-3','bg-secondary');
     card6.classList.add('card','mb-4');
     cardBody6.classList.add('card-body');
     h56.classList.add('card-text');
@@ -82,14 +83,14 @@ const menu = function () {
     span5.innerHTML = '1,5$';
     span6.innerHTML = '1,5$';
 
-    h51.innerHTML = 'Pho Bo.';
-    h52.innerHTML = 'Bun Cha.';
-    h53.innerHTML = 'Bun Dau.';
-    h54.innerHTML = 'Dinsum.';
-    h55.innerHTML = 'Meat Sticks.';
-    h56.innerHTML = 'Banh Tom.';
+    h51.innerHTML = 'Pho Bo';
+    h52.innerHTML = 'Bun Cha';
+    h53.innerHTML = 'Bun Dau';
+    h54.innerHTML = 'Dinsum';
+    h55.innerHTML = 'Meat Sticks';
+    h56.innerHTML = 'Spring Rolls';
 
-    card1.innerHTML = '<img class="card-img-top rounded" src="../src/images/pho.jpg" alt="Card ige cap">';
+    card1.innerHTML = '<img style="height: 260px;" class="card-img-top rounded" src="../src/images/pho.jpg" alt="Card ige cap">';
     card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/buncha.jpg" alt="Card image cap">';
     card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/bundau.jpg" alt="Card image cap">';
     card4.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/dinsum.jpg" alt="Card image cap">';
@@ -136,7 +137,8 @@ const menu = function () {
     div.append(h11);
     div.append(row);
 
-    main.append(div);
+    container.append(div);
+
     main.append(container);
 
     content.append(main);
@@ -165,15 +167,15 @@ const menu = function () {
     div.classList.add('mt-3','p-2');
     h12.classList.add('text-center','mb-5','text-white-50','pt-3');
     row.classList.add('row','p-2','bg-dark');
-    col41.classList.add('col-4','p-3','bg-secondary');
+    col41.classList.add('col-4','pt-4','pb-3','pr-3','pl-4','bg-secondary');
     card1.classList.add('card','mb-4');
     cardBody1.classList.add('card-body');
     h51.classList.add('card-text');
-    col42.classList.add('col-4','p-3','bg-secondary');
+    col42.classList.add('col-4','pt-4','pb-3','pr-3','pl-3','bg-secondary');
     card2.classList.add('card','mb-4');
     cardBody2.classList.add('card-body');
     h52.classList.add('card-text');
-    col43.classList.add('col-4','p-3','bg-secondary');
+    col43.classList.add('col-4','pt-4','pb-3','pr-4','pl-3','bg-secondary');
     card3.classList.add('card','mb-4');
     cardBody3.classList.add('card-body');
     h53.classList.add('card-text');
@@ -187,13 +189,13 @@ const menu = function () {
     span2.innerHTML = '1,5$';
     span3.innerHTML = '1,5$';
 
-    h51.innerHTML = 'Tea.';
-    h52.innerHTML = 'Coffee.';
-    h53.innerHTML = 'Tra Sua.';
+    h51.innerHTML = 'Tea';
+    h52.innerHTML = 'Coffee';
+    h53.innerHTML = 'Juice';
 
     card1.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded" src="../src/images/tea.jpg" alt="Card ige cap">';
     card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/coffee.jpg" alt="Card image cap">';
-    card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/trasua.jpg" alt="Card image cap">';
+    card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/beverages.jpg" alt="Card image cap">';
 
     cardBody1.append(h51);
     cardBody1.append(span1);
@@ -217,7 +219,7 @@ const menu = function () {
     div.append(h12);
     div.append(row);
 
-    main.append(div);
+    container.append(div);
     main.append(container);
 
     content.append(main);

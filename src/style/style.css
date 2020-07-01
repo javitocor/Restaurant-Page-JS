@@ -6,7 +6,7 @@
 	border: 4px solid white;
 	z-index: 1;
 	left: 50%;
-	top: 65%;
+	top: 71%;
 	margin-left: -15%;
 	text-align: center;
 	padding-top: 15px;
@@ -126,4 +126,9 @@
 
   #jumbo {
 	  margin-bottom: 0 !important;
+  }
+
+  #container {
+	  margin-bottom: 0 !important;
+	  margin-top: 0 !important;
   }
