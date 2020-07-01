@@ -52,7 +52,7 @@ Additional description about the project and its features.
 [Live Demo Link]() :point_left:
 
 ## Getting Started
-- Follow the lice demo link and enjoy the site.
+- Follow the live demo link and enjoy the site.
 
 ### Usage
 - To get a local copy up and running follow these simple example steps.
