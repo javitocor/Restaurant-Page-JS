@@ -1,4 +1,6 @@
-const navbar = function () {
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable comma-spacing */
+const navbar = function navbar() {
   const content = document.getElementById('content');
 
   function header() {
@@ -16,13 +18,13 @@ const navbar = function () {
     linksContainer.classList.add('collapse','navbar-collapse','pl-5','pr-5');
     list.classList.add('navbar-nav');
     item1.classList.add('nav-item','ml-2','pl-4','hyperlink');
-    item1.id = "0";
+    item1.id = '0';
     item2.classList.add('nav-item','ml-2','pl-4','hyperlink');
-    item2.id = "1";
+    item2.id = '1';
     item3.classList.add('nav-item','ml-2','pl-4','hyperlink');
-    item3.id = "2";
+    item3.id = '2';
     item4.classList.add('nav-item','ml-2','pl-4','hyperlink');
-    item4.id = "3";
+    item4.id = '3';
 
     logo.innerHTML = '<a class="navbar-brand text-warning font-weight-bolder" href="#">Viet Nha Hang</a>';
     item1.innerHTML = 'Home';

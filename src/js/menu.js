@@ -1,10 +1,13 @@
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable func-names */
+/* eslint-disable comma-spacing */
 const menu = function () {
   const content = document.getElementById('content');
   const container = document.createElement('div');
   container.classList.add('container','my-5','bg-dark','py-5');
-  container.id = "container";
+  container.id = 'container';
   const main = document.createElement('main');
-  main.classList.add('hide','bg-dark');
+  main.classList.add('hide', 'bg-dark');
 
   function food() {
     const div = document.createElement('div');
@@ -199,7 +202,7 @@ const menu = function () {
     img1.classList.add('card-img-top','rounded','img-fluid','try');
     img2.classList.add('card-img-top','rounded','img-fluid','try1');
     img3.classList.add('card-img-top','rounded','img-fluid','try2');
-    
+
     h12.innerHTML = 'Our Beverages';
 
     span1.innerHTML = '1,5$';
