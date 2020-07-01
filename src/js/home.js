@@ -78,7 +78,7 @@ const home = function () {
       topHeader,
       catalog,
       render,
-
+        main,
     };
   };
   

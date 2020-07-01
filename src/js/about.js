@@ -33,13 +33,10 @@ const about = function () {
         content.append(main);
 
     }
-    function render() {
-        info();
-    }
 
     return {
         info,
-        render,
+        main,
     };
   };
   

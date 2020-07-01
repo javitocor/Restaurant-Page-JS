@@ -88,13 +88,10 @@ const location = function () {
 
     }
 
-    function render() {
-        restaurants();
-    }
 
     return {
         restaurants,
-        render,
+        main, 
     };
   };
   

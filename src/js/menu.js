@@ -232,6 +232,7 @@ const menu = function () {
     food,
     drinks,
     render,
+    main,
   };
 };
 
