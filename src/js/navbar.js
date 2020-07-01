@@ -11,7 +11,7 @@ const navbar = function () {
     const item3 = document.createElement('li');
     const item4 = document.createElement('li');
 
-    nav.classList.add('navbar','navbar-expand-lg','navbar-light','bg-light');
+    nav.classList.add('navbar','navbar-expand-lg','navbar-light','backg','text-warning');
     logo.classList.add('container');
     linksContainer.classList.add('collapse','navbar-collapse','pl-5','pr-5');
     list.classList.add('navbar-nav');
@@ -20,7 +20,7 @@ const navbar = function () {
     item3.classList.add('nav-item','ml-2');
     item4.classList.add('nav-item','ml-2');
 
-    logo.innerHTML = '<a class="navbar-brand" href="#">Viet Nha Hang</a>';
+    logo.innerHTML = '<a class="navbar-brand text-warning font-weight-bolder" href="#">Viet Nha Hang</a>';
     item1.innerHTML = 'Home';
     item2.innerHTML = 'Menu';
     item3.innerHTML = 'About';
@@ -43,8 +43,8 @@ const navbar = function () {
     const footer = document.createElement('footer');
     const div = document.createElement('div');
 
-    footer.classList.add('font-small','blue');
-    div.classList.add('text-center','py-3');
+    footer.classList.add('font-small','blue','bg-warning');
+    div.classList.add('text-center','py-3','text-danger');
 
     div.innerHTML = '© 2020 Copyright: <a href="#"> JaviCorp</a>';
 
