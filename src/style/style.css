@@ -112,6 +112,54 @@
   background-size: cover;
 }
 
+.try3 {
+  background-image: url('../images/pho.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try4 {
+  background-image: url('../images/buncha.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try5 {
+  background-image: url('../images/bundau.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try6 {
+  background-image: url('../images/dinsum.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try7 {
+  background-image: url('../images/meat.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try8 {
+  background-image: url('../images/banhtom.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .top-left h3,
 .top-right h3,
 .bottom-right h3,

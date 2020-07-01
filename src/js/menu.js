@@ -40,6 +40,12 @@ const menu = function () {
     const cardBody6 = document.createElement('div');
     const h56 = document.createElement('h5');
     const span6 = document.createElement('span');
+    const img1 = document.createElement('div');
+    const img2 = document.createElement('div');
+    const img3 = document.createElement('div');
+    const img4 = document.createElement('div');
+    const img5 = document.createElement('div');
+    const img6 = document.createElement('div');
 
     h11.classList.add('text-center','mb-5','text-white-50','pt-3');
     row.classList.add('row','p-2','bg-dark');
@@ -73,6 +79,12 @@ const menu = function () {
     span4.classList.add('text-muted');
     span5.classList.add('text-muted');
     span6.classList.add('text-muted');
+    img1.classList.add('card-img-top','rounded','img-fluid','try3');
+    img2.classList.add('card-img-top','rounded','img-fluid','try4');
+    img3.classList.add('card-img-top','rounded','img-fluid','try5');
+    img4.classList.add('card-img-top','rounded','img-fluid','try6');
+    img5.classList.add('card-img-top','rounded','img-fluid','try7');
+    img6.classList.add('card-img-top','rounded','img-fluid','try8');
 
     h11.innerHTML = 'Our Dishes';
 
@@ -90,40 +102,46 @@ const menu = function () {
     h55.innerHTML = 'Meat Sticks';
     h56.innerHTML = 'Spring Rolls';
 
-    card1.innerHTML = '<img style="height: 260px;" class="card-img-top rounded" src="../src/images/pho.jpg" alt="Card ige cap">';
+    /*card1.innerHTML = '<img style="height: 260px;" class="card-img-top rounded" src="../src/images/pho.jpg" alt="Card ige cap">';
     card2.innerHTML = '<img  style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/buncha.jpg" alt="Card image cap">';
     card3.innerHTML = '<img style="height: 260px;" class="card-img-top rounded img-fluid" src="../src/images/bundau.jpg" alt="Card image cap">';
     card4.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/dinsum.jpg" alt="Card image cap">';
     card5.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/meat.jpg" alt="Card image cap">';
-    card6.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/banhtom.jpg" alt="Card image cap">';
+    card6.innerHTML = '<img style="height: 260px;"  class="card-img-top rounded" src="../src/images/banhtom.jpg" alt="Card image cap">';*/
 
     cardBody1.append(h51);
     cardBody1.append(span1);
+    card1.append(img1);
     card1.append(cardBody1);
     col41.append(card1);
 
     cardBody2.append(h52);
     cardBody2.append(span2);
+    card2.append(img2);
     card2.append(cardBody2);
     col42.append(card2);
 
     cardBody3.append(h53);
     cardBody3.append(span3);
+    card3.append(img3);
     card3.append(cardBody3);
     col43.append(card3);
 
     cardBody4.append(h54);
     cardBody4.append(span4);
+    card4.append(img4);
     card4.append(cardBody4);
     col44.append(card4);
 
     cardBody5.append(h55);
     cardBody5.append(span5);
+    card5.append(img5);
     card5.append(cardBody5);
     col45.append(card5);
 
     cardBody6.append(h56);
     cardBody6.append(span6);
+    card6.append(img6);
     card6.append(cardBody6);
     col46.append(card6);
 
