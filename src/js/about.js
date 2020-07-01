@@ -11,8 +11,9 @@ const about = function () {
         const p2 = document.createElement('p');
         const p3 = document.createElement('p');
 
-        jumbo.classList.add('jumbotron','jumbotron-fluid');
-        container.classList.add("container");
+        jumbo.classList.add('jumbotron','jumbotron-fluid','bg-dark');
+        jumbo.id = 'jumbo';
+        container.classList.add("container",'bg-secondary','p-5');
         header.classList.add("display-4");
         p1.classList.add("lead");
         p2.classList.add("lead");

@@ -123,3 +123,7 @@
   .hyperlink:hover {
 	  font-size: 20px;
   }
+
+  #jumbo {
+	  margin-bottom: 0 !important;
+  }
