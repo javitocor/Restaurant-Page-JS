@@ -1,135 +1,110 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+.title-header {
+	position: absolute;
+	width: 30%;
+	height: 150px;
+	background-color: rgb(63, 63, 63, 0.8);
+	border: 4px solid white;
+	z-index: 1;
+	left: 50%;
+	top: 65%;
+	margin-left: -15%;
+	text-align: center;
+	padding-top: 15px;
+	color: yellow;
+	}
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+  .main-container {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 2px;
+  }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
+  .main-cards {
+	background-color: rgb(100, 100, 100);
+	height: 800px;
+  }
 
-body {
-	line-height: 1;
-}
+  .seriously-red {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	border: 4px solid white;
+	background-color: rgb(161, 161, 161, 0.4);
+	z-index: 1;
+	top: 3.5%;
+	left: auto;
+	right: 8%;
+	text-align: center;
+	padding-top: 5px;
+	color: yellow;
+	}
 
-ol,
-ul {
-	list-style: none;
-}
+  .title-container {
+	color: red;
+	text-align: center;
+	background-image: url('../images/restaurant_bg.jpg');
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 5px;
+  }
 
-blockquote,
-q {
-	quotes: none;
-}
+  .centered {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
+  .centered h1 {
+	  font-weight: 900;
+	  font-size: 65px;
+  }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+  .top-left {
+	background-image: url('../images/market.jpg');
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .top-right {
+	background-image: url('../images/selling.jpg');
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+  }
+
+  .bottom-left {
+	background-image: url('../images/restaurant.jpg');
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+  }
+
+  .top-left h3,
+  .top-right h3,
+  .bottom-right h3,
+  .bottom-left h3 {
+	text-align: center;
+	padding-top: 125px;
+	color: white;
+  }
+
+  .bottom-right {
+	background-image: url('../images/market2.jpg');
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+  }
+
