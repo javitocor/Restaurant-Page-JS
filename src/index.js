@@ -9,7 +9,7 @@ let loc = location();
 let eat = menu();
 
 nav.header();
+eat.render();
 aboutUs.info();
 loc.restaurants();
-eat.food();
 nav.footer();
