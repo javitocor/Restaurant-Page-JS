@@ -1,0 +1,199 @@
+.title-header {
+  position: absolute;
+  width: 30%;
+  height: 150px;
+  background-color: rgb(63, 63, 63, 0.8);
+  border: 4px solid white;
+  z-index: 1;
+  left: 50%;
+  top: 71%;
+  margin-left: -15%;
+  text-align: center;
+  padding-top: 15px;
+  color: yellow;
+}
+
+.main-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2px;
+}
+
+.main-cards {
+  background-color: rgb(100, 100, 100);
+  height: 800px;
+}
+
+.seriously-red {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  border: 4px solid white;
+  background-color: rgb(161, 161, 161, 0.4);
+  z-index: 1;
+  top: 3.5%;
+  left: auto;
+  right: 8%;
+  text-align: center;
+  padding-top: 5px;
+  color: yellow;
+}
+
+.title-container {
+  color: red;
+  text-align: center;
+  background-image: url('../images/restaurant_bg.jpg');
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  font-weight: 900;
+  font-size: 65px;
+}
+
+.top-left {
+  background-image: url('../images/market.jpg');
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-right {
+  background-image: url('../images/selling.jpg');
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-left {
+  background-image: url('../images/restaurant.jpg');
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try {
+  background-image: url('../images/tea.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try1 {
+  background-image: url('../images/coffee.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try2 {
+  background-image: url('../images/beverages.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try3 {
+  background-image: url('../images/pho.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try4 {
+  background-image: url('../images/buncha.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try5 {
+  background-image: url('../images/bundau.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try6 {
+  background-image: url('../images/dinsum.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try7 {
+  background-image: url('../images/meat.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try8 {
+  background-image: url('../images/banhtom.jpg');
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-left h3,
+.top-right h3,
+.bottom-right h3,
+.bottom-left h3 {
+  text-align: center;
+  padding-top: 125px;
+  color: white;
+}
+
+.bottom-right {
+  background-image: url('../images/market2.jpg');
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hide {
+  display: none;
+}
+
+.backg {
+  background-color: red;
+}
+
+.hyperlink {
+  cursor: pointer;
+}
+
+#jumbo {
+  margin-bottom: 0 !important;
+}
+
+#container {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
